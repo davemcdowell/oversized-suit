@@ -2,9 +2,7 @@
 
 An easy-to-use, super fast, client-side faceted search class built for static sites—or really, anywhere you have some JSON you need to search. Powered by vanilla JS and [MiniSearch](https://github.com/lucaong/minisearch). 
 
-
 > <em>"Oversized and probably handles too much, but hey you can wear it how you want and it's got a lot of room to grow; plus it can be tailored!"</em>
-
 
 > [!NOTE]
 > This project has used no AI to generate any of the code provided. This is also a work in progress, so some features with URL state, UI auto-fill based on URL state and other aspects may not be fully implemented or will change over time 💖
@@ -301,7 +299,9 @@ document.addEventListener('DOMContentLoaded', () => {
       <td><strong>Example</strong></td>
       <td colspan="2">
         <pre><code>
-  ...
+const mySearchLogic = {
+  
+}
         </code></pre>
       </td>
     </tr>
