@@ -570,6 +570,10 @@ const priceChangeEvent = (event, rangeFields) => {
       <td>
         A custom method to define how this range filters results during the result matching phase.
         <br><br><strong>ℹ️ NOTE: </strong><em>Method must include the parameters <code>(result, rangeFields)</code></em>
+        <ul>
+          <li><strong>result:</strong> <em>An object returned from search with expected key-values for use in fine-tuning search results.</em></li>
+          <li><strong>rangeFields:</strong> <em>...</em></li>
+        </ul>
         <br><strong>ℹ️ NOTE: </strong><em>Method must return true or false on a per-result basis.</code></em>
       </td>
       <td>✔ Yes</td>
